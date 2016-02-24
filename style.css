@@ -27,8 +27,32 @@ body {
   width: 40%;
 }
 
-p{
+.messages-container {
+  margin: 10px;
+  border: 1px solid #555;
+  background-image:radial-gradient(#777 00%,#eee 100%);
+  border-radius: 3px;
+}
+
+div div {
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: 5px;
+  background-color: white;
+  margin: 1px;
+}
+div div:first-child {
+  box-sizing: border-box;
+  border: 1px solid #333;
+  padding: 11px;
+  background-image: linear-gradient(to bottom right,#fcc 0,#a44 100%);
   text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+  vertical-align: middle;
+  height: 50px;
+  margin: 0 0 3px 0;
+  border-radius: 2px;
+}
+h3 {
+  margin: 0;
+  font-weight:bold;
 }
