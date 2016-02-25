@@ -7,7 +7,7 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url('http://www.debate.org/photos/albums/1/4/3530/144425-3530-smyhr-a.jpg');
 }
 
 .main-container {
@@ -20,6 +20,14 @@ body {
 
 .main-container h1 {
   text-align: center;
+  color: #e00;
+  font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 8px #000;
+  line-height: .8em;
+}
+span {
+  font-size: 60%;
+  color: #fff;
 }
 
 .text-box {
@@ -30,7 +38,7 @@ body {
 .messages-container {
   margin: 10px;
   border: 1px solid #555;
-  background-image:radial-gradient(#777 00%,#eee 100%);
+  background-color: #ddd;
   border-radius: 3px;
 }
 
@@ -45,12 +53,13 @@ div div:first-child {
   box-sizing: border-box;
   border: 1px solid #333;
   padding: 11px;
-  background-image: linear-gradient(to bottom right,#fcc 0,#a44 100%);
+  background-image: radial-gradient(#fee 50%,#a44 80%);
   text-align: center;
   vertical-align: middle;
   height: 50px;
   margin: 0 0 3px 0;
   border-radius: 2px;
+  color: #333;
 }
 h3 {
   margin: 0;
